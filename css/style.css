@@ -1,0 +1,281 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* font families
+font-family: 'Bree Serif', serif;
+font-family: 'DM Serif Display', serif;
+
+
+*/
+/* utility class */
+
+.big-heading{
+    font-family: 'Bree Serif', serif;
+    font-size:2rem;
+    color:white;
+}
+.small-heading{
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.7rem;  
+    color: white; 
+}
+.center{
+    text-align: center;
+}
+/* Section-footer */
+footer{
+    padding: 12px 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: gray;
+    color:rgb(2, 29, 46);
+}
+/* contact-form */
+.btn{
+    padding-top: 33px;
+   
+}
+.btn button{
+    
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding:10px;
+    border-radius: 20px;
+    color:#fff;
+    background-color: blue;
+    
+}
+#contact input ,textarea,.btn button{
+    font-family: 'DM Serif Display', serif;
+font-size: 1.2rem;
+}
+#contact input,#contact textarea{
+    width: 100%;
+    padding:12px ;
+    border-radius: 12px;
+    text-align: center;
+    
+}
+#contact #text{
+    padding-top: 29px;
+}
+#contact label{
+    display: block;
+    font-size: 1.3rem;
+text-align: center;
+font-weight: bold;
+}
+#contact h1{
+    padding-top: 10px;
+}
+#contact form{
+    padding-top: 33px;
+    width: 70%;
+    
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 44px;
+    padding-top: 22px;
+    position: relative
+}
+#contact::before{
+    content: "";
+    background-color:#0075f6;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: -1;
+    opacity:0.22;
+
+}
+/* section-ironman */
+#ironman-con{
+    position: relative;
+}
+
+.ironman-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding: 33px 22px;
+    position: relative;
+}
+.ironman-content::before{
+    content: "";
+    background-color:#30475e;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: -1;
+    opacity:0.22;
+}
+#ironman-img2{
+    height: 40%;
+    width: 30%;
+    padding:24px;
+    position: relative;
+    
+}
+#ironman-img2::before{
+    content: "";
+    background-color:#0075f6;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: -1;
+    opacity:0.22;
+
+}
+#ironman-img2 img{
+    width: 100%;
+    height: 100%;
+}
+#ironman-img1{
+    position: relative;
+}
+#ironman-img1::before{
+    content: "";
+    background-color:#0075f6;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: -1;
+    opacity:0.22;
+
+}
+#ironman-img1{
+    border: 2px solid red;
+    width: 50%;
+    
+}
+
+
+
+#ironman-img1 img{
+    display: block;
+    
+    
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.ironman-container{
+    display: flex;
+}
+/* section-container */
+#container{
+    padding:50px 33px;
+    position: relative;
+    
+}
+#container::before{
+    content: "";
+    background-color:#ffce76;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: -1;
+    opacity:0.77;
+
+}
+#container-box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#container img{
+    
+    height: 100px;
+    width: 100px;
+    padding: 12px ;
+    margin: 8px 55px;
+    border: 2px solid red;
+    border-radius: 12px;
+}
+#container h1{
+ 
+}
+/* section home */
+#home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    height: 700px;
+    position: relative;
+}
+#home::before{
+    content: "";
+    background:url("../img/captain-america-5692937_1920.jpg")no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: -1;
+
+}
+#content{
+    padding-top: 36%;
+    
+}
+#content p{
+    color: white;
+}
+/* section navbar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+z-index: -1;
+opacity: 0.22;
+
+}
+#navbar img{
+    height: 33px;
+    width: 44px;
+    border-radius: 100%;
+}
+#img{
+    padding: 3px 12px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    padding: 12px 55px;
+    text-decoration: none;
+}

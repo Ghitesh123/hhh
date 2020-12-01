@@ -1,0 +1,36 @@
+/* section-navbar */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    padding: 13px 26px;
+}
+.ironman-container{
+    flex-direction: column;
+}
+#home{
+    height: 450px;
+}
+#home::before{
+    height: 100%;
+}
+#content {
+     padding-top: 313px;;
+
+}
+#content p{
+    font-size: 13px;
+}
+#container-box{
+    flex-direction: column;
+}
+#ironman-img1{
+    width: 100%;
+}
+.ironman-content {
+    padding: 0px 0px;
+    width: 100%;
+}
+#ironman-cont{
+    font-size: 13px;
+}
